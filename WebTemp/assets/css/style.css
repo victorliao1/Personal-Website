@@ -107,13 +107,13 @@ header{
 .bigheadline {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
-	font-size: 10em;
-	margin: 0;
+	font-size: 7em;
+	margin: 20;
 }
 .subheadline {
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 200;
-	font-size: 3em;
+	font-size: 2em;
 	margin: 0;
 }
 
@@ -404,16 +404,39 @@ header{
     border: 1px solid #000;
     max-width: 200px;
     max-height: 200px;
-    margin-bottom: 30px;
+	margin-bottom: 30px;
+	
 }
 .testimonila-block p {
     max-width: 60%;
     margin: 0 auto;
     margin-bottom: 20px;
     font-style: italic;
-    font-size: 18px;
+	font-size: 18px;
 }
 .testimonila-block strong {
+    font-size: 2em;
+}
+
+.testimonila2-block {
+    text-align: center;
+}
+.testimonila2-block img {
+    border-radius: 50%;
+    border: 1px solid #000;
+    max-width: 400px;
+    max-height: 400px;
+	margin-bottom: 0px;
+	
+}
+.testimonila2-block p {
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    font-style: italic;
+	font-size: 18px;
+}
+.testimonila2-block strong {
     font-size: 2em;
 }
 
@@ -531,7 +554,7 @@ header{
 	background-image: url(../images/twitter.png);
 }
 .github{
-	background-image: url(../images/github2.png);
+	background-image: url(../images/githubnew.png);
 }
 .resume{
 	background-image: url(../images/resumeimagere.png);
@@ -540,13 +563,13 @@ header{
 	background-image: url(../images/google-plus.png);
 }
 .linkedin{
-	background-image: url(../images/linkedinNewduo.png);
+	background-image: url(../images/linkedinsmall.png);
 }
 .wordpress{
 	background-image: url(../images/wordpress.png);
 }
 .email{
-	background-image: url(../images/mail2.png);
+	background-image: url(../images/gmaillogoduo.png);
 }
 
 
