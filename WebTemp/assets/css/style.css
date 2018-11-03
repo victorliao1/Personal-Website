@@ -241,8 +241,8 @@ header{
     padding: 0px 40px;
     font-size: 13px;
 }
-.service-wrap h3 {
-    margin: 10px 0px;
+.service-wrap h2 {
+    margin: -10px 0px;
 }
 .pe-dj {
     font-size: 5em;
@@ -516,28 +516,37 @@ header{
 }
 .social-icons a {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     background-size: 100% 200%;
 }
 
 .social-icons a:hover {
-    background-position: 0px -50px;
+    background-position: 0px -75px;
 }
-.facebook{
+/* .facebook{
 	background-image: url(../images/facebook.png);
-}
+} */
 .twitter{
 	background-image: url(../images/twitter.png);
+}
+.github{
+	background-image: url(../images/github2.png);
+}
+.resume{
+	background-image: url(../images/resumeimagere.png);
 }
 .google-plus{
 	background-image: url(../images/google-plus.png);
 }
 .linkedin{
-	background-image: url(../images/linkedin.png);
+	background-image: url(../images/linkedinNewduo.png);
 }
 .wordpress{
 	background-image: url(../images/wordpress.png);
+}
+.email{
+	background-image: url(../images/mail2.png);
 }
 
 
