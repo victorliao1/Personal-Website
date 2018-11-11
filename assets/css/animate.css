@@ -2676,8 +2676,6 @@ Copyright (c) 2014 Daniel Eden
   animation-name: rollIn;
 }
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
 @-webkit-keyframes rollOut {
   0% {
     opacity: 1;
