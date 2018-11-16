@@ -402,13 +402,13 @@ header{
 .testimonila-block img {
     border-radius: 50%;
     border: 1px solid #000;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 225px;
+    max-height: 225px;
 	margin-bottom: 10px;
 }
 
 .testimonila-block p {
-    max-width: 60%;
+    max-width: 100%;
     margin: 0 auto;
     margin-bottom: 20px;
     font-style: italic;
@@ -449,7 +449,16 @@ header{
 #contact {
     color: #fff;
 }
-
+#hiking {
+	padding: 0px 0px 0px 0px;
+    color: #fff;
+    background-size: cover;
+}
+.grouphike img {
+    max-width: 500px;
+    max-height: 500px;
+	margin-bottom: 10px;
+}
 .mapWrap {
     position: relative;
     min-height: 600px;
@@ -460,6 +469,7 @@ header{
     left: 0;
     height: 100%;
 }
+
 #contact-area {
     background: rgba(0, 0, 0, 0.7);
     width: 100%;
@@ -477,6 +487,7 @@ header{
     padding-bottom: 30px;
 }
 .moreDetails p {
+	margin-top: 120px;
     font-size: 16px;
 }
 .address {
@@ -649,6 +660,10 @@ footer {
 	.pe-dj {
 		font-size: 6em;
 	}
+	.moreDetails p {
+		margin-top: 0%;
+		font-size: 16px;
+	}
 
 }
 
@@ -660,6 +675,11 @@ footer {
 		background-attachment: fixed;
 		background-position: 50% -50px;
 	}
+	.moreDetails p {
+		margin-top: 0%;
+		font-size: 16px;
+	}
+
 }
 
 @media all and (max-width: 768px) {
@@ -704,7 +724,21 @@ footer {
 	#portfolio {
 		padding: px 0px 0px 0px;
 	}
-	
+	.moreDetails p {
+		margin-top: 0%;
+		font-size: 16px;
+	}
+	.grouphike img {
+		display: block;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;	
+		max-width: 80%;
+		max-height: 80%;
+		margin-bottom: 10px;
+	}
+
+
 }
 @media all and (max-width: 380px) {
 
@@ -729,6 +763,19 @@ footer {
 	}
 	.testimonila2-block p {
 		max-width: 90%;
+	}
+	.moreDetails p {
+		margin-top: 0%;
+		font-size: 16px;
+	}
+	.grouphike img {
+		display: block;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;	
+		max-width: 80%;
+		max-height: 80%;
+		margin-bottom: 10px;
 	}
 	.social-icons a {
 	    width: 80px;
@@ -763,4 +810,15 @@ footer {
 	    top: 70%;
 	    left: 44%;
 	}
+	.moreDetails p {
+		margin-top: 0%;
+		font-size: 16px;
+	}
+	.grouphike img {
+		text-align: center;
+		max-width: 480;
+		max-height: 480;
+		margin-bottom: 10px;
+	}
+
 }
