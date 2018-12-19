@@ -90,7 +90,7 @@ header{
 	background-image: url(../images/bg-small.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: 50% -50px;
+	/* background-position: 100% -50px; */
 }
 .center {
     text-align: center;
@@ -100,7 +100,6 @@ header{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	font-size: 6em;
-	margin: 0;
 }
 .subheadline {
 	font-family: 'Titillium Web', sans-serif;
@@ -211,7 +210,7 @@ header{
 	padding-top: 76px;
 }
 .service-area {
-    margin: 80px 0px 40px 0px;
+    margin: 40px 0px 20px 0px;
 }
 
 .service-wrap {
@@ -223,7 +222,7 @@ header{
     border-radius: 50%;
 }
 .service-wrap i {
-    margin-top: 40px;
+    margin-top: 20px;
     transition: all 0.3s ease;
 }
 .service-wrap:hover i {
@@ -247,7 +246,7 @@ header{
 
 
 #portfolio {
-    padding: 80px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 .port {
@@ -471,10 +470,10 @@ header{
 }
 
 #contact-area {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
     width: 100%;
     position: relative;
-    padding: 80px 0px 60px 0px;
+    padding: 40px 0px 60px 0px;
 }
 
 .moreDetails {
@@ -643,6 +642,7 @@ footer {
 	    font-size: 11px;
 	    padding: 0px 35px;
 	}
+
 }
 
 @media all and (max-width: 991px) and (min-width: 768px) {
@@ -664,22 +664,24 @@ footer {
 		margin-top: 0%;
 		font-size: 16px;
 	}
+	
 
 }
 
 @media all and (max-width: 991px) {
-
-	header{
-		background: url(../images/bg-small.jpg) no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
-		background-position: 50% -50px;
-	}
 	.moreDetails p {
 		margin-top: 0%;
 		font-size: 16px;
 	}
-
+	.grouphike img {
+		display: block;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;	
+		max-width: 98%;
+		max-height: 98%;
+		margin-bottom: 10px;
+	}
 }
 
 @media all and (max-width: 768px) {
@@ -782,7 +784,6 @@ footer {
 		height: 80px;
 		background-size:100% 200%;
 	}
-
 	.services {
 		max-width: 250px;
 		height: 250px;
