@@ -1,8 +1,6 @@
 (function($,sr){
 
-  // debouncing function from John Hann
-  // http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
-  var debounce = function (func, threshold, execAsap) {
+    var debounce = function (func, threshold, execAsap) {
       var timeout;
 
       return function debounced () {
@@ -107,7 +105,7 @@ function animationHover(element, animation){
             //wait for animation to finish before removing classes
             window.setTimeout( function(){
                 element.removeClass('animated ' + animation);
-            }, 2000);         
+            }, 2000);
         });
 }
 
